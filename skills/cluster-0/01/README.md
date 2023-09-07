@@ -1,15 +1,15 @@
 #  Skill Name
 
-Author: FirstName LastName
+Author: Eric Chen
 
-Date: YYYY-MM-DD
+Date: 2023-09-07
 
 
 ### Summary
-
+This is me blinking the onboard led on the ESP32 board. 
 
 ### Sketches/Diagrams
-
+![Alt text](blink.jpg)
 
 ### Modules, Tools, Source Used Including Attribution
 
