@@ -1,11 +1,4 @@
 # Code Readme
 
-Please describe in this readme what is in your code folder and
-subfolders. Make it easy for us to navigate this space.
-
-Also
-- Please provide your name and date in the comment header for any
-code you submit
-- Indicate within comment lines attributrion for any code you
-have adopted from elsewhere
-- Indicate, in code comments any use of AI for producing your code
+This is Quest 0 skill cluster 5. The title of the skill cluster is "Demonstrate Uploading Video to the Cloud". My name is Eric Chen. 
+[Intro Video](https://drive.google.com/file/d/129GjGlb5XuzAG4jdq_C5mFsHaSqxIb3d/view?usp=drive_link)
