@@ -13,9 +13,6 @@ This circuit has three LEDs each of whom is driven by a GPIO pin on the ESP32 bo
 ![Alt text](image.png)
 Here is a photo of my circuit diagram.
 
-### Modules, Tools, Source Used Including Attribution
-
-
 ### Supporting Artifacts
 [Counting in Binary](https://drive.google.com/file/d/1_edaQ-F-_EEZKRwocHEcM806mB6tEC7u/view?usp=drive_link)
 Here is a working video of my binary counter.
