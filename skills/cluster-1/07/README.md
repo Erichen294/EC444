@@ -12,5 +12,6 @@ Circuit:
 ![ADC](https://github.com/BU-EC444/Chen-Eric/assets/98416392/e5f5763c-21cc-4e19-8e64-180d7c313f23)
 
 Screenshot of ADC pin reading voltage displaying on terminal:
-<img width="150" alt="Screenshot 2023-09-12 at 3 04 45 PM" src="https://github.com/BU-EC444/Chen-Eric/assets/98416392/3093261b-7c0e-48d8-b506-b163c3e9a2d1">
+<img width="150" alt="Screenshot 2023-09-12 at 3 18 32 PM" src="https://github.com/BU-EC444/Chen-Eric/assets/98416392/20f14912-3989-4806-b94b-dd0e919471de">
+
 
