@@ -1,11 +1,12 @@
-# Code Readme
+Author: Eric Chen
 
-Please describe in this readme what is in your code folder and
-subfolders. Make it easy for us to navigate this space.
+Date: 9/20/23
 
-Also
-- Please provide your name and date in the comment header for any
-code you submit
-- Indicate within comment lines attributrion for any code you
-have adopted from elsewhere
-- Indicate, in code comments any use of AI for producing your code
+Summary:
+I wrote a program that polled the state of the push button and cycles through the LEDs in order from red to green to yellow to blue and cycling around. I used the same circuit as skill 11.
+
+Circuit:
+![IMG_0942](https://github.com/BU-EC444/Chen-Eric/assets/98416392/f7412f9b-1f26-4d2b-b958-e46e75ddda31)
+
+Video:
+[Video Demonstration](https://drive.google.com/file/d/11fK55QgM4R-BZFZhmjZ4JG8_1nz7Wfnw/view?usp=drive_link)
