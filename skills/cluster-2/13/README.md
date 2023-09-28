@@ -1,11 +1,11 @@
-# Code Readme
+Author: Eric Chen
 
-Please describe in this readme what is in your code folder and
-subfolders. Make it easy for us to navigate this space.
+Date: 9/28/23
 
-Also
-- Please provide your name and date in the comment header for any
-code you submit
-- Indicate within comment lines attributrion for any code you
-have adopted from elsewhere
-- Indicate, in code comments any use of AI for producing your code
+Summary:
+I created a module that receives a string (up to 8 characters) and display it on the i2c. If the string is longer than 4 characters, then the screen will scroll. I implemented it by using a sliding window if it was more than 4 characters. The screen will only display the string for a set period of time before turning off all the 14-segment displays and waiting for the next input.
+
+Circuit:
+![IMG_0041](https://github.com/BU-EC444/Chen-Eric/assets/98416392/25964b0b-a50f-47e6-bd14-f7a94acf69df)
+
+[Video Demonstration](https://drive.google.com/file/d/1YMktzW2lTQ-Xqvssah-YZ8S8kE96TO5N/view?usp=drive_link)
