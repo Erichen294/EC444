@@ -1,11 +1,4 @@
-# Code Readme
+Author: Eric Chen
+Date: 10/4/23
 
-Please describe in this readme what is in your code folder and
-subfolders. Make it easy for us to navigate this space.
-
-Also
-- Please provide your name and date in the comment header for any
-code you submit
-- Indicate within comment lines attributrion for any code you
-have adopted from elsewhere
-- Indicate, in code comments any use of AI for producing your code
+Summary: My node.js program connects to the serial port and begins reading data from the serial port. I remove any newline characters in the data acquired and combine the current time with it into one string, separated by commas and ending in a newline, and append it to the csv file.
