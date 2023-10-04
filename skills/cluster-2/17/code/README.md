@@ -1,11 +1,4 @@
-# Code Readme
+Author: Eric Chen
+Date: 10/4/23
 
-Please describe in this readme what is in your code folder and
-subfolders. Make it easy for us to navigate this space.
-
-Also
-- Please provide your name and date in the comment header for any
-code you submit
-- Indicate within comment lines attributrion for any code you
-have adopted from elsewhere
-- Indicate, in code comments any use of AI for producing your code
+Summary: My getDataPointsFromCSV() function reads data from the csv file and parses it. Depending on which company the entry it, I will create a new entry and push it to the correct array. The chart will be populated with each company and the x and y axis will be lableled. The title is "Stocks over Time". The html file is full of scripts that does the reading and creating the chart. 
