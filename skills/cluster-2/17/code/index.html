@@ -1,0 +1,100 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Chart using XML Data</title>
+<script type="text/javascript" src="https://canvasjs.com/assets/script/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="https://cdn.canvasjs.com/canvasjs.min.js"></script>
+<script type="text/javascript">
+    window.onload = function() {
+        var amazonData = [];
+        var fbData = [];
+        var googlData = [];
+        var msftData = [];
+	 
+        function getDataPointsFromCSV(csv) {
+            csvLines = csv.split('\n');         
+            for (var i = 1; i < csvLines.length; i++)
+            {
+                if (csvLines[i].length > 0) {
+                    var points = csvLines[i].split(",");
+                    var removeCarriage = points[2].split('\r');
+                    var entry = {
+                        x: parseFloat(points[0]),
+                        y: parseFloat(removeCarriage[0])
+                    };
+                }
+                if (points[1] == 'AMZN')
+                {
+                    amazonData.push(entry);
+                }
+                else if(points[1] == 'FB')
+                {
+                    fbData.push(entry);
+                }
+                else if(points[1] == 'GOOGL')
+                {
+                    googlData.push(entry);
+                }
+                else
+                {
+                    msftData.push(entry);
+                }
+            }   
+            return;
+        }
+	
+	$.get("https://raw.githubusercontent.com/BU-EC444/01-EBook/main/docs/skills/docs/test-data/stocks-csv.txt?token=GHSAT0AAAAAACHGDAQMZP7YB4TWTOCWVWIUZI53GFQ", function(data) {
+	    getDataPointsFromCSV(data);
+        var chart = new CanvasJS.Chart("chartContainer", {
+		    title: {
+            text: 'Stocks over Time'
+        },
+        axisX: {
+            title: 'Date'
+        },
+        axisY: {
+            title: 'Closing Value'
+        },
+        legend:{
+            cursor: "pointer",
+            fontSize: 16,
+        },
+        toolTip:{
+            shared: true
+        },
+        data: [{
+            name: 'Amazon',
+            type: "spline",
+            showInLegend: true,
+            dataPoints: amazonData
+        },
+        {
+            name: 'Facebook',
+            type: 'spline',
+            showInLegend: true,
+            dataPoints: fbData
+        },
+        {
+            name: 'Google',
+            type: 'spline',
+            showInLegend: true,
+            dataPoints: googlData
+        },
+        {
+            name: 'Microsoft',
+            type: 'spline',
+            showInLegend: true,
+            dataPoints: msftData
+        }
+    ]
+	     });
+	      chart.render();
+	});
+  }
+</script>
+</head>
+<body>
+	<div id="chartContainer" style="width:100%; height:300px;"></div>
+</body>
+</html>
