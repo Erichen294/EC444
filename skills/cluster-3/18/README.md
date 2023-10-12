@@ -1,11 +1,6 @@
-# Code Readme
+Author: Eric Chen
+Date: 10/12/23
 
-Please describe in this readme what is in your code folder and
-subfolders. Make it easy for us to navigate this space.
+Summary: Finished updating the firmware of the router and updated the router settings.
 
-Also
-- Please provide your name and date in the comment header for any
-code you submit
-- Indicate within comment lines attributrion for any code you
-have adopted from elsewhere
-- Indicate, in code comments any use of AI for producing your code
+Picture: 
