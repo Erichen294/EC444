@@ -1,11 +1,6 @@
-# Code Readme
+Author: Eric Chen
+Date: 10/23/23
+Summary: I wired up my thermistor and photocell and sent the data into the serial port in a [temperature photocell] format every line and every second. The node.js program reads the data from the serial port and uses a socket to communicate with the index.html and receive data. Everytime the socket receives the message, it'll push the new data point to the appropriate data array and update the plot on the canvasJS chart. The x axis is time in seconds starting from 0 and increments of 1 second. The y axis is temperature or photocell reading depending on which graph you're looking at.
 
-Please describe in this readme what is in your code folder and
-subfolders. Make it easy for us to navigate this space.
-
-Also
-- Please provide your name and date in the comment header for any
-code you submit
-- Indicate within comment lines attributrion for any code you
-have adopted from elsewhere
-- Indicate, in code comments any use of AI for producing your code
+Video Demonstration:
+[Video](https://drive.google.com/file/d/1xDoJtMyUL5HFB2SLJ8ZBvpOdnPYazywi/view?usp=drive_link)
