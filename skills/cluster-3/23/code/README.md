@@ -1,11 +1,3 @@
-# Code Readme
-
-Please describe in this readme what is in your code folder and
-subfolders. Make it easy for us to navigate this space.
-
-Also
-- Please provide your name and date in the comment header for any
-code you submit
-- Indicate within comment lines attributrion for any code you
-have adopted from elsewhere
-- Indicate, in code comments any use of AI for producing your code
+Author: Eric Chen
+Date: 10/23/23
+Summary: This is my code for the node.js program, index.html, and the esp32 code.
