@@ -1,0 +1,91 @@
+<!-- client side -->
+
+<!doctype html>
+<html>
+<head>
+	<title>Serial Port Data</title>
+	<!-- Source for Socket.io - this one is local -->
+	<script src="/socket.io/socket.io.js"></script>
+	<script type="text/javascript" src="https://canvasjs.com/assets/script/jquery-1.11.1.min.js"></script>
+	<script type="text/javascript" src="https://cdn.canvasjs.com/canvasjs.min.js"></script>
+</head>
+<body>
+	<div id="temperatureChart" style="width:100%; height:300px;"></div>
+	<div id="photocellChart" style="width:100%; height:300px;"></div>
+	<script>
+		var temperatureChart;
+		var photocellChart;
+		document.addEventListener("DOMContentLoaded", function () {
+		  var temperatureData = [];
+		  var photocellData = [];
+		  var currentTime = 0;
+
+		  function updateTemperatureChart(data) {
+				console.log('Received temperature data from the server:', data);
+				var dataArray = data.split(' ');
+				var temperature = dataArray[0];
+				var temperatureDataPoint = { x: currentTime, y: parseFloat(temperature) };
+				console.log(temperatureDataPoint);
+				temperatureData.push(temperatureDataPoint);
+				temperatureChart.render();
+			}
+
+			function updatePhotocellChart(data) {
+				console.log('Received photocell data from the server:', data);
+				var dataArray = data.split(' ');
+				var photocell = dataArray[1].replace(/\r/g, '');
+				var photocellDataPoint = { x: currentTime, y: parseFloat(photocell) };
+				console.log(photocellDataPoint);
+				photocellData.push(photocellDataPoint);
+				photocellChart.render();
+			}
+
+			temperatureChart = new CanvasJS.Chart("temperatureChart", {
+				title: {
+					text: 'Temperature Data'
+				},
+				axisX: {
+					title: 'Time'
+				},
+				axisY: {
+					title: 'Temperature'
+				},
+				data: [
+					{
+						type: "spline",
+						dataPoints: temperatureData
+					}
+				]
+			});
+			temperatureChart.render();
+		
+			photocellChart = new CanvasJS.Chart("photocellChart", {
+				title: {
+					text: 'Photocell Data'
+				},
+				axisX: {
+					title: 'Time'
+				},
+				axisY: {
+					title: 'Photocell'
+				},
+				data: [
+					{
+						type: "spline",
+						dataPoints: photocellData
+					}
+				]
+			});
+			photocellChart.render();
+
+		var socket = io();
+		socket.on('serialData', function (data) {
+			updateTemperatureChart(data);
+			updatePhotocellChart(data);
+			currentTime++;
+		});
+		  
+		});
+	  </script>
+</body>
+</html>
