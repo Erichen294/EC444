@@ -1,11 +1,3 @@
-# Code Readme
-
-Please describe in this readme what is in your code folder and
-subfolders. Make it easy for us to navigate this space.
-
-Also
-- Please provide your name and date in the comment header for any
-code you submit
-- Indicate within comment lines attributrion for any code you
-have adopted from elsewhere
-- Indicate, in code comments any use of AI for producing your code
+Author: Eric Chen
+Date: 10/31/2023
+Summary: I wrote code that would prompt the user to enter an angle and the servo moves to that angle. There is enough delay in the code for the motor to move to the angle before it gives it another angle.
