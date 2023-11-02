@@ -1,11 +1,4 @@
-# Code Readme
+Author: Eric Chen
+Date: 11/2/23
 
-Please describe in this readme what is in your code folder and
-subfolders. Make it easy for us to navigate this space.
-
-Also
-- Please provide your name and date in the comment header for any
-code you submit
-- Indicate within comment lines attributrion for any code you
-have adopted from elsewhere
-- Indicate, in code comments any use of AI for producing your code
+Summary: We wired up the ESC, steering servo, battery and esp to the buggy. We also wrote a program that controls the buggy. W makes it go forward, S makes it go backwards, A makes it turn left, and B makes it turn right. Whenever we want to go backwards, we must get a negative angle then go to zero then back to the negative angle.
