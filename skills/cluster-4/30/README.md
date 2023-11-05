@@ -5,3 +5,6 @@ Summary: I created a circuit with the ultrasonic sensor. The trigger pin is conn
 
 Video:
 [Video Demonstration](https://drive.google.com/file/d/1QVKS5uvorc2kafR6z5KxBpNJrg2M_T_M/view?usp=drive_link)
+
+Circuit:
+[Circuit](https://drive.google.com/file/d/1yBYUuX0l0jlaCz-EwL6VNtltkmMP53Jz/view?usp=drive_link)
