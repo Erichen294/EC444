@@ -1,11 +1,7 @@
-# Code Readme
+Author: Eric Chen
+Date: 11/5/2023
 
-Please describe in this readme what is in your code folder and
-subfolders. Make it easy for us to navigate this space.
+Summary: I created a circuit with the ultrasonic sensor. The trigger pin is connected to A1 and the echo pin is connected to A0. The sensor correctly outputs the distance the sensor is from the object. The further I move away from the object that is reflecting the sound then the output increases and vice versa.
 
-Also
-- Please provide your name and date in the comment header for any
-code you submit
-- Indicate within comment lines attributrion for any code you
-have adopted from elsewhere
-- Indicate, in code comments any use of AI for producing your code
+Video:
+[Video Demonstration](https://drive.google.com/file/d/1QVKS5uvorc2kafR6z5KxBpNJrg2M_T_M/view?usp=drive_link)
