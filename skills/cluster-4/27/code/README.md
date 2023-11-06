@@ -1,11 +1,5 @@
-# Code Readme
+Author: Eric Chen
 
-Please describe in this readme what is in your code folder and
-subfolders. Make it easy for us to navigate this space.
+Date: 11/6/23
 
-Also
-- Please provide your name and date in the comment header for any
-code you submit
-- Indicate within comment lines attributrion for any code you
-have adopted from elsewhere
-- Indicate, in code comments any use of AI for producing your code
+Summary: The count variable increments every time the sensor detects a color change from white to black or vice versa. Initially when the while loop is entered, a timer is started and every time one revolution is finished the timer is stopped and the amount of time it takes to make that one revolution is measured. From there the wheel speed is able to be calculated since we can divide the wheel circumference by the time it took to make one revolution. The timer is reset to zero after the calculation is done and the cycle repeats. 
