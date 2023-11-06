@@ -1,11 +1,8 @@
-# Code Readme
+Author: Eric Chen
+Date: 11/6/23
 
-Please describe in this readme what is in your code folder and
-subfolders. Make it easy for us to navigate this space.
+Summary:
+We printed an encoder pattern scaled to 30%, so that it would fit on the buggy wheel. Then, we wired up the LED/photosensor pair to the breadboard and had the sensor facing the encoder pattern. Everytime the sensor detects a change from a white strip to a black strip or vice versa it will increment a count variable. Assuming that a count of 12 implies one wheel revolution we were able to calculate the wheel rpm and therefore the wheel speed.
 
-Also
-- Please provide your name and date in the comment header for any
-code you submit
-- Indicate within comment lines attributrion for any code you
-have adopted from elsewhere
-- Indicate, in code comments any use of AI for producing your code
+Video:
+[Video Demonstration](https://drive.google.com/file/d/1xvd8u104du9crNwpDNdEIeThmb8Ns2o8/view?usp=drive_link)
