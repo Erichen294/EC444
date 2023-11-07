@@ -1,11 +1,10 @@
-# Code Readme
+Author: Eric Chen
 
-Please describe in this readme what is in your code folder and
-subfolders. Make it easy for us to navigate this space.
+Date: 11/7/23
 
-Also
-- Please provide your name and date in the comment header for any
-code you submit
-- Indicate within comment lines attributrion for any code you
-have adopted from elsewhere
-- Indicate, in code comments any use of AI for producing your code
+Summary: I wrote a program that initializes the lidar configuration settings and follows the paradigm given by the manufacturer. It repeatedly gets the distance measurement from the lidar every 100 ms.
+
+1) Write to register 0x00 with value 0x04 (initiates and begins acquisition)
+2) Read register 0x01
+3) Repeat read of 0x01 until bit 0 (LSB) goes low
+4) Read two bytes from 0x10 (low byte 0x10 then high byte 0x11) to get 16-bit distance in cm
