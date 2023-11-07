@@ -1,11 +1,5 @@
-# Code Readme
+Author: Eric Chen
 
-Please describe in this readme what is in your code folder and
-subfolders. Make it easy for us to navigate this space.
+Date: 11/7/23
 
-Also
-- Please provide your name and date in the comment header for any
-code you submit
-- Indicate within comment lines attributrion for any code you
-have adopted from elsewhere
-- Indicate, in code comments any use of AI for producing your code
+Summary: The program reads the distance value measured by the ultrasonic sensor and then it takes the setpoint(50 cm) and it subtracts the measured distance. Then, it passes the difference to a function that turns on the corresponding LED depending on the value of the difference. If the difference is negative then the red led will turn on, if the difference is within 0 < x < 0.5 then the green led turns on, and if the difference is positive then the blue led will turn on. It repeats every 100 ms.
