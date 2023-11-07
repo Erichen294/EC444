@@ -1,11 +1,5 @@
-# Code Readme
+Author: Eric Chen
 
-Please describe in this readme what is in your code folder and
-subfolders. Make it easy for us to navigate this space.
+Date: 11/7/23
 
-Also
-- Please provide your name and date in the comment header for any
-code you submit
-- Indicate within comment lines attributrion for any code you
-have adopted from elsewhere
-- Indicate, in code comments any use of AI for producing your code
+Summary: The program sets up the configuration of the lidar. Then, it writes the value 0x04 to register 0, continuously reads from register 1 until the LSB is low, and then reads 2 bytes from register 10. It prints the distance and repeats every 100 ms.
