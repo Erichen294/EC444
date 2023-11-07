@@ -1,11 +1,5 @@
-# Code Readme
+Author: Eric Chen
 
-Please describe in this readme what is in your code folder and
-subfolders. Make it easy for us to navigate this space.
+Date: 11/7/23
 
-Also
-- Please provide your name and date in the comment header for any
-code you submit
-- Indicate within comment lines attributrion for any code you
-have adopted from elsewhere
-- Indicate, in code comments any use of AI for producing your code
+Summary: I created a three led circuit connected with an ultrasonic sensor. The program reads the distance measured by the ultrasonic sensor and compares it to the setpoint of 50 cm. The red led will turn on if the difference between the setpoint and the current distance is negative, the  green led will turn on if it is within 0.5 cm of 50 cm, and the blue led will turn on if the difference is positive.
