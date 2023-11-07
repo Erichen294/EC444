@@ -6,3 +6,5 @@ Summary: I created a three led circuit connected with an ultrasonic sensor. The 
 
 Video:
 [Video Demonstration](https://drive.google.com/file/d/1qFZy7DuRr2k9Mla0669tCFjGzVmRjIOs/view?usp=drive_link)
+
+[Circuit](https://drive.google.com/file/d/1qxukCa9OArFlzJ22heQtX63alAU_55lh/view?usp=drive_link)
