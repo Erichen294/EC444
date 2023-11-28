@@ -1,11 +1,6 @@
-# Code Readme
+Author: Eric Chen
+Date: 11/28/23
 
-Please describe in this readme what is in your code folder and
-subfolders. Make it easy for us to navigate this space.
+Summary: We wired up an oled display on the breadboard and displayed a string on the display without scrolling.
+[String Display](https://github.com/BU-EC444/Chen-Eric/assets/98416392/ef3a3e3e-d5a8-43bb-9be6-5f3b6ae81fa6)
 
-Also
-- Please provide your name and date in the comment header for any
-code you submit
-- Indicate within comment lines attributrion for any code you
-have adopted from elsewhere
-- Indicate, in code comments any use of AI for producing your code
