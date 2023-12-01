@@ -1,11 +1,6 @@
-# Code Readme
+Author: Eric Chen
+Date: 12/1/23
 
-Please describe in this readme what is in your code folder and
-subfolders. Make it easy for us to navigate this space.
+Summary: I brought up the pi camera using libcamera-vid -t 0 --inline --listen -o tcp://{ip address of pi} and replacing the ip address with the address of my pi and used vlc player on my laptop to connect using tcp/h264://{ip address of pi}:3333.
 
-Also
-- Please provide your name and date in the comment header for any
-code you submit
-- Indicate within comment lines attributrion for any code you
-have adopted from elsewhere
-- Indicate, in code comments any use of AI for producing your code
+[Video](https://drive.google.com/file/d/1_exHhEvq7lSqltU42U_PqimHFF8n0x6_/view?usp=drive_link)
