@@ -1,11 +1,6 @@
-# Code Readme
+Author: Eric Chen
+Date: 12/3/23
 
-Please describe in this readme what is in your code folder and
-subfolders. Make it easy for us to navigate this space.
+Summary: I created a state diagram for the whack-a-mole game. Then, I coded up some pseudo-code representing the state diagram.
 
-Also
-- Please provide your name and date in the comment header for any
-code you submit
-- Indicate within comment lines attributrion for any code you
-have adopted from elsewhere
-- Indicate, in code comments any use of AI for producing your code
+[State Table](https://drive.google.com/file/d/1Jjobdoz4vOOccuNFSMg3BZOGPi933vYx/view?usp=sharing)
