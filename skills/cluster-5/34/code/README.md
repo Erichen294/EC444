@@ -1,11 +1,4 @@
-# Code Readme
+Author: Eric Chen
+Date: 12/3/23
 
-Please describe in this readme what is in your code folder and
-subfolders. Make it easy for us to navigate this space.
-
-Also
-- Please provide your name and date in the comment header for any
-code you submit
-- Indicate within comment lines attributrion for any code you
-have adopted from elsewhere
-- Indicate, in code comments any use of AI for producing your code
+Summary: The code continuously takes pictures and looks for qr codes. If there is a qr code, then it will decode it and print the url that it leads to.
