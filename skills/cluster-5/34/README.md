@@ -1,11 +1,6 @@
-# Code Readme
+Author:
+Date: 12/3/23
 
-Please describe in this readme what is in your code folder and
-subfolders. Make it easy for us to navigate this space.
+Summary: We used picamera2,pyzbar and numpy to take an image on the pi camera, open the image, decode the qr code and print the url of the qr code.
 
-Also
-- Please provide your name and date in the comment header for any
-code you submit
-- Indicate within comment lines attributrion for any code you
-have adopted from elsewhere
-- Indicate, in code comments any use of AI for producing your code
+Video -> 
