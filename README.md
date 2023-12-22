@@ -1,3 +1,3 @@
-# LastName-FirstName
+# Chen-Eric
 
-Hello, I am FirstName LastName. I keep my repositories organized and well documented. In general, each skill exists in a cluster subfolder.
+Hello, I am Eric Chen. This is my EC444 repository. In general, each skill exists in a cluster subfolder.
